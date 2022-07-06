@@ -1,0 +1,35 @@
+.skills{
+    
+    background-color:#000;
+    padding-top: 200px;
+
+    &__subtitle{
+        text-align: center;
+    }
+
+    &__items{
+        justify-content: center;
+        text-align: center;
+        margin-top: 60px;
+        padding: 0 10px;
+        align-items: center;
+        display: grid;
+        grid-template: repeat(2, minmax(180px, auto)) / repeat(4, 180px);
+        grid-auto-rows: minmax(180px, auto);
+        gap: 20px;
+    }
+
+    &__item{
+        justify-content: center;
+        border: 1px solid white;
+        padding: 30px 30px 25px 30px;
+        &-img {
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            min-height: 65px;
+        }
+       
+    }
+
+}

@@ -1,0 +1,29 @@
+.sidepanel{
+    position: fixed;
+    top: 80px;
+    left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+    height: 600px;
+    z-index: 3;
+    &_link{
+        &:hover{
+            svg path{
+                filter: brightness(50%);
+            }
+        }
+    }
+    &_divider{
+        width: 2px;
+        height: 200px;
+        background-color: aliceblue;
+    }
+    &_divider2{
+        width: 2px;
+        height: 200px;
+        background-color: aliceblue;
+    }
+
+}
